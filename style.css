@@ -1,1 +1,11 @@
+body{
+  background-color: khaki;
+  color: maroon;
+  font-family: Verdana, sans-serif;
+  margin: 10% 15%
+}
 
+.exp-header{
+  text-align: center;
+  border: 2px solid black
+}
