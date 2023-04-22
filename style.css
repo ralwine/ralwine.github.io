@@ -43,10 +43,12 @@ article{
   font-family: Georgia, serif;
   text-align: center;
   border: 2px double black;
-section::after {
-  content: "";
-  display: table;
-  clear: both;
+}
+footer{
+  background-color: teal;
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
 @media (max-width: 600px) {
   section {
