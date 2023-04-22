@@ -5,9 +5,9 @@ body{
   font-family: Verdana, sans-serif;
 }
 header{
-  background-color: teal;
-  font-family: Fantasy, Copperplate, serif;
-  font-size: 17px;
+  background-color: DodgerBlue;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
   text-align: center;
   color: white;
   padding: 1px;
@@ -22,9 +22,9 @@ aside{
   flex: 1;
   padding: 10px;
   float: left;
-  height: 1000px;
+  height: 1500px;
   text-align: left;
-  background-color: blue;
+  background-color: turquoise;
   color: white;
 }
 article{
@@ -44,7 +44,7 @@ article{
   border: 2px double black;
 }
 footer{
-  background-color: teal;
+  background-color: DodgerBlue;
   padding: 10px;
   text-align: center;
   color: white;
