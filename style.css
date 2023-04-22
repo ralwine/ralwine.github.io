@@ -1,12 +1,48 @@
+*{
+  box-sizing:border-box
+}
 body{
+  font-family: Verdana, sans-serif;
+}
+header{
+  background-color: teal;
+  font-family: Fantasy, Copperplate, sans-serif;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  padding: 1px;
+}
+aside{
+  padding: 2px;
+  float: left;
+  width: 25%;
+  height: 1000px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+}
+article{
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  height 1000px;
+  padding: 20px;
   background-color: khaki;
   color: maroon;
-  font-family: Verdana, sans-serif;
-  margin: 10% 15%
+  margin: 2px;
 }
-
 .exp-header{
   background-color: grey;
+  font-family: Georgia, serif;
   text-align: center;
-  border: 2px solid black
+  border: 2px double black;
+section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
