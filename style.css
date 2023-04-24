@@ -37,6 +37,9 @@ article{
   margin: 2px;
 }
 .skillsBox{
+  -moz-column-count: 2; 
+  -webkit-column-count: 2; 
+  column-count: 2; 
   border: none;
   margin-left: 3%;
   margin-right: 3%;
