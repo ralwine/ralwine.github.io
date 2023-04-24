@@ -36,6 +36,16 @@ article{
   color: maroon;
   margin: 2px;
 }
+.skillsBox{
+  border: none;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.skills{
+  border: none;
+  display: inline-block;
+  vertical-align: top
+}
 .exp-header{
   background-color: DodgerBlue;
   font-family: Georgia, serif;
