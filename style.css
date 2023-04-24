@@ -31,17 +31,17 @@ article{
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  height 1000px;
+  height 200px;
   padding: 10px;
-  background-color: khaki;
   color: maroon;
   margin: 2px;
 }
 .exp-header{
-  background-color: grey;
+  background-color: DodgerBlue;
   font-family: Georgia, serif;
   text-align: center;
   border: 2px double black;
+  color: white
 }
 footer{
   background-color: DodgerBlue;
